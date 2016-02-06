@@ -25,6 +25,7 @@
 		9576E2881C65C40700BA7AE4 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9576E27E1C65BD8000BA7AE4 /* Car.swift */; };
 		9576E2891C65C40800BA7AE4 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9576E27E1C65BD8000BA7AE4 /* Car.swift */; };
 		9576E28A1C65C61600BA7AE4 /* CarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9576E2831C65C23C00BA7AE4 /* CarTests.swift */; };
+		95B6EC341C66A5DA000ABDD1 /* MyFramework.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 95B6EC331C66A5DA000ABDD1 /* MyFramework.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +73,7 @@
 		9576E2761C65B2F800BA7AE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9576E27E1C65BD8000BA7AE4 /* Car.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Car.swift; path = ../Sources/Car.swift; sourceTree = "<group>"; };
 		9576E2831C65C23C00BA7AE4 /* CarTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CarTests.swift; path = ../Tests/CarTests.swift; sourceTree = "<group>"; };
+		95B6EC331C66A5DA000ABDD1 /* MyFramework.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = MyFramework.podspec; path = ../MyFramework.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 		9576E1F21C64838100BA7AE4 = {
 			isa = PBXGroup;
 			children = (
+				95B6EC331C66A5DA000ABDD1 /* MyFramework.podspec */,
 				9576E2821C65C1C100BA7AE4 /* Tests */,
 				9576E27D1C65BAF500BA7AE4 /* Sources */,
 				9576E22F1C65B29A00BA7AE4 /* MyFrameworkiOS */,
@@ -416,6 +419,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95B6EC341C66A5DA000ABDD1 /* MyFramework.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -833,6 +837,7 @@
 				9576E2411C65B29A00BA7AE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9576E2421C65B29A00BA7AE4 /* Build configuration list for PBXNativeTarget "MyFrameworkiOSTests" */ = {
 			isa = XCConfigurationList;
@@ -841,6 +846,7 @@
 				9576E2441C65B29A00BA7AE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9576E25B1C65B2BD00BA7AE4 /* Build configuration list for PBXNativeTarget "MyFrameworkOSX" */ = {
 			isa = XCConfigurationList;
@@ -849,6 +855,7 @@
 				9576E25D1C65B2BD00BA7AE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9576E25E1C65B2BD00BA7AE4 /* Build configuration list for PBXNativeTarget "MyFrameworkOSXTests" */ = {
 			isa = XCConfigurationList;
@@ -857,6 +864,7 @@
 				9576E2601C65B2BD00BA7AE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9576E2771C65B2F800BA7AE4 /* Build configuration list for PBXNativeTarget "MyFrameworkTVOS" */ = {
 			isa = XCConfigurationList;
@@ -865,6 +873,7 @@
 				9576E2791C65B2F800BA7AE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9576E27A1C65B2F800BA7AE4 /* Build configuration list for PBXNativeTarget "MyFrameworkTVOSTests" */ = {
 			isa = XCConfigurationList;
@@ -873,6 +882,7 @@
 				9576E27C1C65B2F800BA7AE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
